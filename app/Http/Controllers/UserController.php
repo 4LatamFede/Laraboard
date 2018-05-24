@@ -175,7 +175,7 @@ class UserController extends Controller
 		$data['code'] = $random;
 
 		Mail::send('auth.email.forgot_password', $data, function ($message) use ($user) {
-			$message->from('tapan@chillyorange.com', 'SiteBuilder Laravel');
+			$message->from('tapan@chillyorange.com', 'Laravel');
 			$message->to($user->email);
 			$message->subject('Forgot Password');
 		});
@@ -257,7 +257,7 @@ class UserController extends Controller
 		$data['code'] = $random;
 
 		Mail::send('auth.email.forgot_password', $data, function ($message) use ($user) {
-			$message->from('tapan@chillyorange.com', 'SiteBuilder Laravel');
+			$message->from('tapan@chillyorange.com', 'Laravel');
 			$message->to($user->email);
 			$message->subject('Forgot Password');
 		});

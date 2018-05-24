@@ -1,7 +1,7 @@
 @extends('layouts.login')
 
 @section('title')
-Login | SiteBuilder Lite
+Login | {{app_name()}}
 @endsection
 
 @section('content')

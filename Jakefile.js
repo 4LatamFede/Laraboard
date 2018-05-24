@@ -91,7 +91,7 @@
     desc("The actual build task");
     task("build", [ "linting", "minifyElementJS", "minifyElementCSS", "minifyMainCSS", "minifySkeletonCSS", "minifyBuilderCSS", "browserify" ], function () {
 
-        console.log("Building SiteBuilder Lite");
+        console.log("Cargando..");
 
     });
 

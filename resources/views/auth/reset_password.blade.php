@@ -1,7 +1,7 @@
 @extends('layouts.login')
 
 @section('title')
-Reset password | SiteBuilder Lite
+Reset password | {{app_name()}}
 @endsection
 
 @section('content')

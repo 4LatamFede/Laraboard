@@ -1,4 +1,4 @@
-## SiteBuilder Lite with Laravel 5.2 PHP Framework
+## Interactive Web with Laravel 5.2 PHP Framework
 
 SITEBUILDER Lite takes a block oriented approach to building web pages and web sites. What this is means is that SITEBUILDER Lite provides the user with a selection of pre-designed blocks, such as headers, content sections, forms, footers, etc. which are combined onto a canvas to create fully functional web page.
 
